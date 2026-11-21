@@ -7,8 +7,8 @@ cask "pastu" do
   desc "Local-first, privacy-focused clipboard manager"
   homepage "https://github.com/keremeersoy/pastu"
 
-  depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
+  depends_on macos: :sequoia
 
   app "Pastu.app"
 
